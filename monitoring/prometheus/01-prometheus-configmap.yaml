@@ -59,7 +59,7 @@ data:
           target_label: systemd_service_name
           replacement: '${1}'
 
-    - job_name: 'kubernetes-pods'
+    - job_name: 'kubernetes-pods1'
       kubernetes_sd_configs:
         - role: pod
       relabel_configs:
